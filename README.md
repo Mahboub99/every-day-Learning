@@ -5,3 +5,8 @@
 ``` shell
 tree /f /a > tree.txt
 ```
+
+### How to install vue CLI?
+``` shell
+npm install -g vue-cli
+```
