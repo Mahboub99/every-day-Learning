@@ -10,3 +10,8 @@ tree /f /a > tree.txt
 ``` shell
 npm install -g vue-cli
 ```
+
+### How to create vue app?
+```shell
+vue create <project name>
+```
