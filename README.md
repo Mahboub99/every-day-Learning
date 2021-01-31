@@ -68,3 +68,5 @@ export default {
 }
 </script>
 ```
+
+using `:msg="title"` to pass "title" as data not `string` 
