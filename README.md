@@ -77,10 +77,8 @@ using `:msg="title"` to pass "title" as data not `string`
 
 >In comparison, a method invocation will always run the function whenever a re-render happens but computed just calls whenever the data is updated.
 
-| methods                                                                                    | computed|
-|:------------------------------------------------------------------------------------------:| :------:| 
-| .To call a function when an event happen in the DOM                                        |You need to compose new data from existing data sources
-You need to reference a value directly in your template
-You call the same function more than once in your template         |
-  .To call a function from the computed or watchers when something happens in your component.  
-  .You need to pass parameters
+| methods                                                                                    | computed                                                  |
+|:-----------------------------------------------------------------------------------------:| :---------------------------------------------------------:| 
+| To call a function when an event happen in the DOM                                        | You need to compose new data from existing data sources    |     
+| To call a function from the computed or watchers when something happens in your component.| You need to reference a value directly in your template    |
+| You need to pass parameters                                                               | You call the same function more than once in your template |
