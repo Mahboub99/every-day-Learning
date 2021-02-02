@@ -23,8 +23,7 @@
 </div>
 
 ## About
-> every-day-learning is a collection of questions and answers that i write down throghu my journey in learning here you might find various questions in front end , problem solving and programming languages
-
+> every-day-learning is a collection of questions and answers that i write down through my journey in learning ,here you might find various questions in front end , problem solving and programming languages
 
 
 
