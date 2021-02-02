@@ -77,8 +77,19 @@ using `:msg="title"` to pass "title" as data not `string`
 
 >In comparison, a method invocation will always run the function whenever a re-render happens but computed just calls whenever the data is updated.
 
-| methods                                                                                    | computed                                                  |
+| methods                                                                                   | computed                                                   |
 |:-----------------------------------------------------------------------------------------:| :---------------------------------------------------------:| 
 | To call a function when an event happen in the DOM                                        | You need to compose new data from existing data sources    |     
 | To call a function from the computed or watchers when something happens in your component.| You need to reference a value directly in your template    |
 | You need to pass parameters                                                               | You call the same function more than once in your template |
+
+
+
+### what is the diffrence between Primitive and Reverance value in js?
+> [Complete answer](https://www.javascripttutorial.net/javascript-primitive-vs-reference-values).
+
+>In JavaScript, a variable may store two types of values: primitive and reference.
+JavaScript provides six primitive types as `undefined`, `null`, `boolean`, `number`, `string`, and `symbol` , and a reference type `object`(also `array`).
+The size of a primitive value is fixed, therefore, JavaScript stores the primitive value on the `stack`.
+On the other hand, the size of a reference value is dynamic so JavaScript stores the reference value on the `heap`.
+
