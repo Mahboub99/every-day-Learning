@@ -116,6 +116,7 @@ using `:msg="title"` to pass "title" as data not `string`
 ### what is the diffrence between Primitive and Reverance value in js?
 > [Complete answer](https://www.javascripttutorial.net/javascript-primitive-vs-reference-values).
 
+
 >In JavaScript, a variable may store two types of values: primitive and reference.
 JavaScript provides six primitive types as `undefined`, `null`, `boolean`, `number`, `string`, and `symbol` , and a reference type `object`(also `array`).
 The size of a primitive value is fixed, therefore, JavaScript stores the primitive value on the `stack`.
