@@ -164,3 +164,4 @@ function countInversions(array) {
   return sortedArray, totalInversions
 }
 ```
+> [Complete answer](https://medium.com/the-andela-way/count-inversions-5fe3288f11fb).
