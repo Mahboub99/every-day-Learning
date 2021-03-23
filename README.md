@@ -128,7 +128,7 @@ On the other hand, the size of a reference value is dynamic so JavaScript stores
 
 > we can do it in `O(n^2)` the brute force solution 
 
-> ```
+```
 initialize arr to [1,2,4,3,5,6]
 initialize i to 0
 initialize inversions to 0
@@ -139,7 +139,7 @@ while i is less than length of arr
     if arr[i] is greater than arr[j]
       then increment inversions by 1
 print out inversions
-> ``` 
+``` 
 >or we can use merge sort in `O(nlog(n))` devide and conquer algorithm.
 ```
 function countInversions(array) {
