@@ -123,3 +123,44 @@ JavaScript provides six primitive types as `undefined`, `null`, `boolean`, `numb
 The size of a primitive value is fixed, therefore, JavaScript stores the primitive value on the `stack`.
 On the other hand, the size of a reference value is dynamic so JavaScript stores the reference value on the `heap`.
 
+
+### How to count the number of inversions in an array ?
+
+> we can do it in `O(n^2)` the brute force solution 
+
+> ```
+initialize arr to [1,2,4,3,5,6]
+initialize i to 0
+initialize inversions to 0
+while i is less than length of arr
+  initialize j to i+1
+  
+  while j is less than length of arr
+    if arr[i] is greater than arr[j]
+      then increment inversions by 1
+print out inversions
+> ``` 
+>or we can use merge sort in `O(nlog(n))` devide and conquer algorithm.
+```
+function countInversions(array) {
+  if length of array is equal to 1
+    return array
+  midPoint = length of array \ 2
+  firstHalf, inversions1 = mergeSort(first half of the array)
+  secondHalf, inversions2 = mergeSort(second half of the array)
+  initialize sortedArray to an empty array
+  initialize i to 0
+  initialize j to 0
+  initialize inversions to 0
+  while i < length of firstHalf and j < length of secondHalf
+    if firstHalf[i] > secondHalf[j]
+      append secondHalf[j] to sortedArray
+      inversions = inversions + (midPoint - i)
+    else
+      append firstHalf[i] to sortedArray
+  append the remaining elements of firstHalf to sortedArray
+  append the remaining elements of secondHalf to sortedArray
+  totalInversions = inversions1 + inversions2 + inversions
+  return sortedArray, totalInversions
+}
+```
