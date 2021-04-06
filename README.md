@@ -167,5 +167,5 @@ function countInversions(array) {
 > [Complete answer](https://medium.com/the-andela-way/count-inversions-5fe3288f11fb).
 > 
 
-### what is the progrissive web technology?
+### what is the Progressive web Apps?
 > [Complete answer](https://web.dev/what-are-pwas/).
